@@ -1,5 +1,8 @@
 import Image from 'next/image';
-import Logo from '../../assets/douling.png';
+import Logo from '../../public/douling.png';
+
+import { Loader } from 'lucide-react';
+import { Button } from '@/components/ui/button';
 import {
   ClerkLoaded,
   ClerkLoading,
@@ -9,9 +12,6 @@ import {
   SignedOut,
   UserButton,
 } from '@clerk/nextjs';
-import { Loader } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { clear } from 'console';
 
 export const Header = () => {
   return (

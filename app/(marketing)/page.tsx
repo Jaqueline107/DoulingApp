@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import learnDou from '../../assets/learnDou.png';
+import learnDou from '../../public/learnDou.png';
 import { Button } from '@/components/ui/button';
 import {
   ClerkLoaded,

@@ -1,10 +1,10 @@
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
-import HrFlag from '../../assets/flags/HRCroatia.svg';
-import EsFlag from '../../assets/flags/ES.svg';
-import ItFlag from '../../assets/flags/IT.svg';
-import JpFlag from '../../assets/flags/JP.svg';
-import FrFlag from '../../assets/flags/FR.svg';
+import HrFlag from '../../public/HRCroatia.svg';
+import EsFlag from '../../public/ES.svg';
+import ItFlag from '../../public/IT.svg';
+import JpFlag from '../../public/JP.svg';
+import FrFlag from '../../public/FR.svg';
 
 export const Footer = () => {
   return (
